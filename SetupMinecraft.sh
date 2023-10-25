@@ -15,7 +15,7 @@ AllowLocalCopy="0"
 # You can change this to a custom directory -- it is meant to be the root directory that contains everything (not including the "minecraft" folder part)
 DirName=$(readlink -e ~)
 if [ -z "$DirName" ]; then
-  DirName=~
+  DirName=MCUSB~
 fi
 
 cd "$DirName"
